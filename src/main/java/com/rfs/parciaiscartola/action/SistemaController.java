@@ -37,6 +37,11 @@ import com.rfs.parciaiscartola.keys.ParciaisCartolaKeys;;
 
 @Controller
 public class SistemaController {
+	
+	public static void main(String[] args){
+		
+	}
+	
 	@RequestMapping(ParciaisCartolaKeys.HOME_ACTION)
 	public ModelAndView home() throws ParseException {
 		String statusMercado = null;
